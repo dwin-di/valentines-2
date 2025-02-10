@@ -1,0 +1,4 @@
+def be_my_valentine(gf):
+    return "Yes" if gf == "mine" else "Try again 😘"
+
+print(be_my_valentine("mine"))
