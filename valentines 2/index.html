@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Will You Be My Valentine?</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
-    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
-        <div id="image-container"></div> <!-- Container for displaying images -->
-        <div id="text-container">
-            <div id="question">Will you be my valentine?</div> <!-- Question -->
-            <div id="options">
-                <button id="yes-button" onclick="selectOption('yes')">Yes</button> <!-- Yes button -->
-                <button id="no-button" onclick="selectOption('no')">No</button> <!-- No button -->
-            </div>
+
+    <div class="container">
+        <h1>Will you be my Valentine? 💖</h1>
+        <img src="https://i.pinimg.com/originals/7f/06/d5/7f06d50414cd435aba8026dc87da1b5a.gif" alt="Cute Heart" class="heart-img">
+        <div class="buttons">
+            <button id="yesBtn">Yes 💕</button>
+            <button id="noBtn">No 😢</button>
         </div>
+        <p id="response"></p>
     </div>
 
-    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
